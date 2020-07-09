@@ -2,36 +2,13 @@
 <html>
 
 <head>
-	<script language="javascript">
-	 	  //window.location.replace("http://snvf02.coding-pages.com/");
-		function createXMLHttpRequest(){
-		    if(window.XMLHttpRequest){
-			XMLHttpR = new XMLHttpRequest();
-		    }else if(window.ActiveXObject){
-			try{
-			    XMLHttpR = new ActiveXObject("Msxml2.XMLHTTP");
-			}catch(e){
-			    try{
-				XMLHttpR = new ActiveXObject("Microsoft.XMLHTTP");
-			    }catch(e){
-			    }
-			}
-		    }
-		}
-		function sendRequest(url){
-		    createXMLHttpRequest();
-		    XMLHttpR.open("GET",url,true);
-		    XMLHttpR.setRequestHeader("Content-Type","text/html;charset=utf-8");
-		    XMLHttpR.onreadystatechange = processResponse;
-		    XMLHttpR.send(null);
-		}
-		function processResponse(){
-		    if(XMLHttpR.readyState ==4 && XMLHttpR.status == 200){
-			document.write(XMLHttpR.responseText);
-		    }
-		}
-		
-		sendRequest("http://snvf02.coding-pages.com/");
+	<title>youbixue,免费中小幼STEM在线教育,编程</title>
+	<meta name="description" content="youbixue.com 是免费青少年儿童编程免费在线教育网站,适用于 K12 STEM 在线教育。">
+
+　　     <meta name="keyword" content="youbixue,k12,STEM,在线教育,编程,免费"> 
+	
+	<script language="javascript"> 
+		window.location.replace("http://snvf02.coding-pages.com/");
 	</script>
 
 
